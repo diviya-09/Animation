@@ -1,0 +1,55 @@
+/* .container {
+    margin-top: 100px;
+}
+.square {
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+}
+.square1 {
+    background-color: bisque;
+    transition: transform 0.5s ease;
+}
+.square2 {
+    background-color: burlywood;
+    transition: transform 0.5s ease-in;
+}
+.square3 {
+    background-color: yellowgreen;
+    transition: transform 0.5s ease-out;
+}
+.square4 {
+    background-color: rebeccapurple;
+    transition: transform 0.5s ease-in-out;
+}
+.square5 {
+    background-color: black;
+    transition: transform 0.5s linear;
+}
+.container:hover .square{
+    transform: translateX(500px);
+}
+.bigsquare {
+    height: 200px;
+    width: 200px;
+    border: 3px solid black;
+    background-color: bisque;
+    transition: border color;
+}
+.bigSquare:hover {
+    border-color: black;
+} */
+
+div {
+    height: 300px;
+    width: 300px;
+    background-image: repeating-linear-gradient(
+        60deg, aqua,black 10px,hotpink 10px,magenta 15px
+    );
+    transition: all 2s ease-in-out;
+}
+div:hover {
+    background-image: linear-gradient(10deg,magenta,aqua,red,pink,orange);
+    margin-left: 500px;
+    transform: rotate(-700deg) skew(15deg) scale(0.5);
+}
